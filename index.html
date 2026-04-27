@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Invoice - Part 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="invoice-container">
+        <header>
+            <div class="company-info">
+                <h1>WIDGET CORP</h1>
+                <p>123 Innovation Way<br>Tech City, ST 54321<br>contact@widgetcorp.com</p>
+            </div>
+            <div class="invoice-details">
+                <h2>INVOICE</h2>
+                <p><strong>Invoice #:</strong> 1001</p>
+                <p><strong>Date:</strong> April 27, 2026</p>
+            </div>
+        </header>
+
+        <hr>
+
+        <section class="billing-section">
+            <div class="bill-to">
+                <h3>Bill To:</h3>
+                <p>Client Name<br>456 Customer Ave<br>Business Town, BT 98765</p>
+            </div>
+            <div class="for-section">
+                <h3>For:</h3>
+                <p>Project Consultation & Development</p>
+            </div>
+        </section>
+
+        <table class="invoice-table">
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" value="Web Design Services"></td>
+                    <td><input type="number" value="10"></td>
+                    <td><input type="number" value="150.00"></td>
+                    <td class="row-total">$1,500.00</td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="SEO Optimization"></td>
+                    <td><input type="number" value="5"></td>
+                    <td><input type="number" value="75.00"></td>
+                    <td class="row-total">$375.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <section class="totals-area">
+            <div class="calculations">
+                <p>Subtotal: <span>$1,875.00</span></p>
+                <p>Tax (10%): <span>$187.50</span></p>
+                <hr>
+                <p class="grand-total">Total: <span>$2,062.50</span></p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Thank you for your business!</p>
+            <p>Please make checks payable to <strong>Widget Corp</strong>.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+
+
+
