@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.invoice-container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+h1 { color: #2c3e50; margin: 0; }
+h2 { color: #7f8c8d; margin: 0; }
+
+/* Billing & For */
+.billing-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+}
+
+/* Table Styling */
+.invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+.invoice-table th {
+    background-color: #34495e;
+    color: white;
+    text-align: left;
+    padding: 12px;
+}
+
+.invoice-table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+input {
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 90%;
+    font-family: inherit;
+}
+
+/* Totals Area */
+.totals-area {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.calculations p {
+    margin: 5px 0;
+}
+
+.grand-total {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    header, .billing-section {
+        flex-direction: column;
+    }
+}
+
